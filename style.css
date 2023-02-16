@@ -1,0 +1,119 @@
+html{
+    font-family: 'Domine', serif;
+    font-size: 1.5rem;
+    background: linear-gradient(-45deg,#0700de,#ddffc9 60%);
+    background-repeat: no-repeat;
+    
+
+}
+main{
+    height: 100vh;
+}
+
+.container h1{
+    font-family: 'Blaka Hollow', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    background: linear-gradient(#103ce7 ,#64e9ff);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 20px 5px black;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    flex:1;
+
+}
+
+.container p{
+    justify-self: baseline;
+    margin-left: 2%;
+}
+.form{
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    /* border:2px  solid lightblue; */
+    background-color: rgb(236, 234, 234);
+    align-items: center;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+.form input[type="number"]{
+    background-color: transparent;
+    border: none;
+    height:1rem;
+    border-bottom:2px solid black;
+    font-size: large;
+    caret-color: orange;
+}
+.form input[type="number"]:focus{
+    outline: none;
+}
+.form input[type="number"] {
+        width: 200px;
+}
+.form input[type="submit"]{
+    width: 120px;
+    margin-left:2%;
+    margin-top:2%;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.6rem;
+    /* font-family: 'Domine', serif; */
+    font-weight: 700;
+    background-color: rgb(101, 227, 101);
+    color: green;
+    box-shadow: 4px 4px 5px 1px gray;
+
+
+}
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+.form input[type="submit"]:active{
+    opacity: 0.5;
+}
+
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.resetButton{
+
+    width: 120px;
+    margin-left:2%;
+    margin-top:2%;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.6rem;
+    /* font-family: 'Domine', serif; */
+    font-weight: 700;
+    background-color:black;
+    color: skyblue;
+    box-shadow: 4px 4px 5px 1px gray;
+
+}
+
+.resetButton:hover{
+    cursor: pointer;
+    opacity: 0.9;
+
+}
